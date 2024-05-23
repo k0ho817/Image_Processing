@@ -101,7 +101,7 @@
 > 영상은 위치값과 밝기값을 가진 일정한 수의 화소들의 모임으로 정의한다.
 
 영상을 $f(x,y)$로 표시할때 $(x,y)$는 위치를 가리키는 좌표값이다. $f(\;)$는 해당 위치의 밝기 값이다.<br>   
-![디지털 영상 형성 과정](images/1.png)<br>   
+![디지털 영상 형성 과정](https://private-user-images.githubusercontent.com/53679360/332992421-3a5a3e77-6a27-40b7-a4a1-62f57667200a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTY0MjMwMDksIm5iZiI6MTcxNjQyMjcwOSwicGF0aCI6Ii81MzY3OTM2MC8zMzI5OTI0MjEtM2E1YTNlNzctNmEyNy00MGI3LWE0YTEtNjJmNTc2NjcyMDBhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTIzVDAwMDUwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQzMmZmZTA1ZDNiNDJkNTg2MDA5MGNkMjE3ZGRhMjZkNzg1ZWNkYmZkOTMyZDVmMzAyZGM3OTkwYzFlZDIxNDQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.ynXHtPBE4ce3tq3xBV6dZ2QFZZKppVinwbDZ_TQczJU)<br>   
 영상이 형성되기 위해서는 빛이 물체에 비치고, 물체는 빛을 받는다.  
 그 물체에 비친 빛의 일부가 반사되어 카메라 센서에 들아가 영상을 형성한다.  
 물체의 표면의 반사량에 따라 카메라에 들어가는 빛의 양이 다르기 때문에 영상 $f(x,y)$는 다음과 같은 식으로 형성된다.
