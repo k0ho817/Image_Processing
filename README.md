@@ -116,11 +116,11 @@ $$f(x,y)=i(x,y)*r(x,y)$$
 
 ![영상 형성을 위한 표본화와 양자화 단계](https://private-user-images.githubusercontent.com/53679360/333911777-501330dd-2ddf-4394-b7eb-168a3d83f011.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTY3NjA2NjUsIm5iZiI6MTcxNjc2MDM2NSwicGF0aCI6Ii81MzY3OTM2MC8zMzM5MTE3NzctNTAxMzMwZGQtMmRkZi00Mzk0LWI3ZWItMTY4YTNkODNmMDExLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTI2VDIxNTI0NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZjYTk5N2E5MjgxMzA2NjQ2Y2ZmZGFjNDZjMDZhMDg3MDVjYmIyNjA0YWZlN2U0MTIxZDE3OWFkNzA3YmZkM2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.eyqasUYes-Kd3l6dWhsSJA4mX_uyoSYFWCPxXTbfYO4)
 
-표본화와 양자화를 거친 영상은 일정수의 화소(pixel)들의 집합인 $M*N$ 크기의 영상으로 표현된다. 그리고 원점의 위치는 $(x,y) = (0,0)$인 왼쪽 위 코너에 있다.
+표본화와 양자화를 거친 영상은 일정수의 화소(pixel)들의 집합인 $M \times N$ 크기의 영상으로 표현된다. 그리고 원점의 위치는 $(x,y) = (0,0)$인 왼쪽 위 코너에 있다.
 
 표본화 수에 따라 세로, 가로의 크기인 M과 N이 결정된다. 그리고 각 화소의 양자화 수준에 따라 밝기값의 수준(gray-level)이 정해진다. $k$ 비트로 양자화 되었다면, 밝기값의 수준 $L=2^k$을 가진다.
 
-화소수가 $M*N$개 이고, 한 개의 화소가 $k$비트로 표현되는 영상이 필요로 하는 저장공간 S는 $S=M*N*k$ 비트이다.
+화소수가 $M \times N$개 이고, 한 개의 화소가 $k$비트로 표현되는 영상이 필요로 하는 저장공간 S는 $S=M \times N \times k$ 비트이다.
 
 입력 영상 $f(x,y)$에 대하여 각종 영상 처리를 $T[\;\;]$로 표현할때, 일반적인 영상 처리($g(x,y)$)는 다음과 같이 표현할 수 있다.   
 $$g(x,y) = T[f(x,y)]$$
