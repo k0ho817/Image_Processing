@@ -101,7 +101,7 @@
 > 영상은 위치값과 밝기값을 가진 일정한 수의 화소들의 모임으로 정의한다.
 
 영상을 $f(x,y)$로 표시할때 $(x,y)$는 위치를 가리키는 좌표값이다. $f(\;)$는 해당 위치의 밝기 값이다.<br>   
-![디지털 영상 형성 과정](https://private-user-images.githubusercontent.com/53679360/332992421-3a5a3e77-6a27-40b7-a4a1-62f57667200a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTY3NjA2MTQsIm5iZiI6MTcxNjc2MDMxNCwicGF0aCI6Ii81MzY3OTM2MC8zMzI5OTI0MjEtM2E1YTNlNzctNmEyNy00MGI3LWE0YTEtNjJmNTc2NjcyMDBhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTI2VDIxNTE1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ5NTBjZGVhM2ViMDQwMWMxNjRiOTZlMTA5MGNhZjUzYmMxNDM5ZWUwNWE3NjY3Y2I5OGI3MjBhMzliYjc1OTEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.Wi-A6sk4pHmTBc-s-y-XwnAdsHiIiQF7DEKPf2K4K_k)<br>   
+![디지털 이미지 형성과정](https://github.com/k0ho817/Image_Processing/assets/53679360/45d0b195-40b5-4f0b-b250-4ad0d449f186)<br>   
 영상이 형성되기 위해서는 빛이 물체에 비치고, 물체는 빛을 받는다.  
 그 물체에 비친 빛의 일부가 반사되어 카메라 센서에 들아가 영상을 형성한다.  
 물체의 표면의 반사량에 따라 카메라에 들어가는 빛의 양이 다르기 때문에 영상 $f(x,y)$는 다음과 같은 식으로 형성된다.
@@ -114,7 +114,7 @@ $$f(x,y)=i(x,y)*r(x,y)$$
 * 표본화 (sampling) : 카메라 해상도에 해당되는 유한개의 화소의 수만큼 입력 값을 취하는 것
 * 양자화 (quantization) : 표본화된 화소의 값을 디지털 화소로 표현하는 단계
 
-![영상 형성을 위한 표본화와 양자화 단계](https://private-user-images.githubusercontent.com/53679360/333911777-501330dd-2ddf-4394-b7eb-168a3d83f011.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTY3NjA2NjUsIm5iZiI6MTcxNjc2MDM2NSwicGF0aCI6Ii81MzY3OTM2MC8zMzM5MTE3NzctNTAxMzMwZGQtMmRkZi00Mzk0LWI3ZWItMTY4YTNkODNmMDExLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTI2VDIxNTI0NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZjYTk5N2E5MjgxMzA2NjQ2Y2ZmZGFjNDZjMDZhMDg3MDVjYmIyNjA0YWZlN2U0MTIxZDE3OWFkNzA3YmZkM2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.eyqasUYes-Kd3l6dWhsSJA4mX_uyoSYFWCPxXTbfYO4)
+![영상 형성을 위한 표본화와 양자화 단계](https://github.com/k0ho817/Image_Processing/assets/53679360/6f09307e-f7c5-44cf-ae05-5183ec755045)
 
 표본화와 양자화를 거친 영상은 일정수의 화소(pixel)들의 집합인 $M \times N$ 크기의 영상으로 표현된다. 그리고 원점의 위치는 $(x,y) = (0,0)$인 왼쪽 위 코너에 있다.
 
